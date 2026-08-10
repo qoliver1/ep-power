@@ -1,6 +1,6 @@
 ﻿import { useState } from 'react';
 import { ArrowUpRight, ChevronLeft, ChevronRight, Menu, Plus, ShoppingBag, Star, X } from 'lucide-react';
-import { BrowserRouter, Link, NavLink, Route, Routes } from 'react-router-dom';
+import { HashRouter as BrowserRouter, Link, NavLink, Route, Routes } from 'react-router-dom';
 
 const navItems = [['Menu & Order', '/menu'], ['Specials', '/specials'], ['Merch', '/merch'], ['Visit Us', '/visit']];
 
